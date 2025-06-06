@@ -1,26 +1,28 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.text-gradient {
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.btn-glow {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.6);
+  transition: 0.3s;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.btn-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.9);
 }
+.card-project {
+  border: none;
+  color: white;
+  border-radius: 10px;
+} */
+ *{
+  font-family: "Poppins";
+ }
